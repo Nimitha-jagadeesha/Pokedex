@@ -6,7 +6,7 @@ export const Pokecard= ({id,name,sprite,handlePick}) =>{
     return (
         <div className="pokecard" onClick={()=>handlePick(name)}>
            {
-            id<=20 
+            id<=100 
             ?<img className="pokemon-sprite" alt = "pokemon" src={sprite}/>
             : null
            }
